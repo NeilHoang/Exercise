@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert_Money</title>
+</head>
+<body>
+     <input type="text" id="Amount">
+     <select id="fromCurrency">
+         <option value="23000" selected>USD</option>
+         <option value="22000">Yên</option>
+         <option value="1">VNĐ</option>
+     </select>
+     <select id="toCurrency">
+         <option value="23000">USD</option>
+         <option value="22000">Yên</option>
+         <option value="1" selected>VNĐ</option>
+     </select>
+      <button type="button" onclick="ConvertMoney()"><h3>Convert</h3></button>
+     <script>
+         function ConvertMoney() {
+             let amount = document.getElementById("Amount").value;
+             let fromCurrency = document.getElementById("fromCurrency").value;
+             let toCurrency = document.getElementById("toCurrency").value;
+
+             let N = (amount/toCurrency)*fromCurrency;
+             alert(N);
+         }
+     </script>
+</body>
+</html>
