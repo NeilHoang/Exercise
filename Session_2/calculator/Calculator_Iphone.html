@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>demo</title>
+    <meta charset='utf-8'>
+    <title>Calculator_Iphone</title>
+    <script>
+        let x='';
+        function a(id){
+            return document.getElementById(id);
+        }
+        function set_number(number){
+            x +=number;
+            a('kq').value=x;
+        }
+        function xoa(){
+            x='';
+            a('kq').value=x;
+        }
+        function ketqua(){
+            a('kq').value=eval(a('kq').value);
+            x=a('kq').value;
+        }
+    </script>
+</head>
+<body>
+<input id='kq' placeholder="kết quá phép tính"/><br/>
+<input type='button' value='1' onclick='set_number(this.value)'/>
+<input type='button' value='2' onclick='set_number(this.value)'/>
+<input type='button' value='3' onclick='set_number(this.value)'/>
+<input type='button' value='+' onclick='set_number(this.value)'/>
+<input type='button' value='-' onclick='set_number(this.value)'/><br/>
+<input type='button' value='4' onclick='set_number(this.value)'/>
+<input type='button' value='5' onclick='set_number(this.value)'/>
+<input type='button' value='6' onclick='set_number(this.value)'/>
+<input type='button' value='*' onclick='set_number(this.value)'/>
+<input type='button' value='/' onclick='set_number(this.value)'/><br/>
+<input type='button' value='7' onclick='set_number(this.value)'/>
+<input type='button' value='8' onclick='set_number(this.value)'/>
+<input type='button' value='9' onclick='set_number(this.value)'/>
+<input type='button' value='=' onclick='ketqua()'/>
+<input type='button' value='AC' onclick='xoa()'/>
+</body>
+</html>
