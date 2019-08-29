@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+
+</head>
+<body>
+Numbers_1: <input id="Numbers_1" type="text">
+Numbers_2: <input id="Numbers_2" type="text">
+
+<button type="button" onclick="plus()">+</button>
+<button type="button" onclick="subtraction()">-</button>
+<button type="button" onclick="multiply()">*</button>
+<button type="button" onclick="division()">/</button>
+<br>Result: <input id="Result" disabled>
+
+<script>
+    function plus() {
+        let a = +document.getElementById("Numbers_1").value;
+        let b = +document.getElementById("Numbers_2").value;
+
+        let p = a + b;
+        document.getElementById('Result').value=p;
+    }
+    function subtraction() {
+        let a = +document.getElementById("Numbers_1").value;
+        let b = +document.getElementById("Numbers_2").value;
+
+        let s = a - b;
+        document.getElementById('Result').value=s;
+    }
+    function multiply() {
+        let a = +document.getElementById("Numbers_1").value;
+        let b = +document.getElementById("Numbers_2").value;
+
+        let m = a * b;
+        document.getElementById('Result').value=m;
+    }
+    function division() {
+        let a = +document.getElementById("Numbers_1").value;
+        let b = +document.getElementById("Numbers_2").value;
+
+        let d = a / b;
+        document.getElementById('Result').value=d;
+    }
+</script>
+</body>
+</html>
