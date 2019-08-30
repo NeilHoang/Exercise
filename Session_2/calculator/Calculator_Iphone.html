@@ -21,24 +21,35 @@
             a('kq').value=eval(a('kq').value);
             x=a('kq').value;
         }
+        function deL() {
+            let xoa = document.getElementById('kq').value;
+            document.getElementById('kq').value = xoa.substring(0,xoa.length -1);
+        }
+
     </script>
+    <script src="Main.js"></script>
 </head>
 <body>
-<input id='kq' placeholder=""/>hiển thị kết quả<br/>
-<input type='button' value='1' onclick='set_number(this.value)'/>
-<input type='button' value='2' onclick='set_number(this.value)'/>
-<input type='button' value='3' onclick='set_number(this.value)'/>
+<center>
+<input id='kq' placeholder="Màn Hình"/><br/>
+<input type='button' value='7' onclick='set_number(this.value)'/>
+<input type='button' value='8' onclick='set_number(this.value)'/>
+<input type='button' value='9' onclick='set_number(this.value)'/>
 <input type='button' value='+' onclick='set_number(this.value)'/>
-<input type='button' value='-' onclick='set_number(this.value)'/><br/>
+<input type='button' value='-' onclick='set_number(this.value)'/><br>
 <input type='button' value='4' onclick='set_number(this.value)'/>
 <input type='button' value='5' onclick='set_number(this.value)'/>
 <input type='button' value='6' onclick='set_number(this.value)'/>
 <input type='button' value='*' onclick='set_number(this.value)'/>
 <input type='button' value='/' onclick='set_number(this.value)'/><br/>
-<input type='button' value='7' onclick='set_number(this.value)'/>
-<input type='button' value='8' onclick='set_number(this.value)'/>
-<input type='button' value='9' onclick='set_number(this.value)'/>
-<input type='button' value='=' onclick='ketqua()'/>
-<input type='button' value='AC' onclick='xoa()'/>
+<input type='button' value='1' onclick='set_number(this.value)'/>
+<input type='button' value='2' onclick='set_number(this.value)'/>
+<input type='button' value='3' onclick='set_number(this.value)'/>
+<input type='button' value='AC' onclick='xoa()'/><br>
+<input type='button' value='0' onclick='set_number(this.value)'>
+<input type="button" value="." onclick="set_number('.')"/>
+<input type='button' value='=' onclick="ketqua()"/>
+<input type="button" value="<-" onclick="deL()"/>
+</center>
 </body>
 </html>
