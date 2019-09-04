@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     Nhập giá trị tổng doanh số bán hàng: <input type="text" id="O">
+     <button type="button" onclick="Bonus()">Click!</button>
+     <script>
+         function Bonus() {
+             let hoahong;
+             let doanhso = Number(document.getElementById('O').value);
+             if (doanhso <= 100)
+                 hoahong = doanhso*5/100;
+             if (doanhso <= 300)
+                 hoahong = doanhso*10/300;
+             if (doanhso > 300)
+                 hoahong = doanhso*20/300;
+             alert(hoahong);
+         }
+     </script>
+
+</body>
+</html>

@@ -5,6 +5,28 @@
     <title>Title</title>
 </head>
 <body>
-
+     Điểm các bài kiểm tra: <input type="text" id="a">
+     Điểm thi giữa kỳ: <input type="text" id="b">
+     Điểm thi cuối kỳ: <input type="text" id="c">
+     <button type="button" onclick="LearningPower()">Click me!</button>
+     <script>
+         function LearningPower() {
+             let hocluc;
+             let a = Number(document.getElementById('a').value);
+             let b = Number(document.getElementById('b').value);
+             let c = Number(document.getElementById('c').value);
+             hocluc = (a + (b * 3) + (c * 3)) / 7;
+             if (hocluc >= 8 && hocluc <= 10)
+                 alert('Xếp hạng giỏi');
+             if (hocluc >= 6.5 && hocluc < 8)
+                 alert('Xếp hạng khá');
+             if (hocluc < 6.5 && hocluc >= 5)
+                 alert('Xếp hạng trung bình');
+             if (hocluc < 5 && hocluc >= 3)
+                 alert('Xếp hạng yếu');
+             else if (hocluc < 3)
+                 alert('Kém vch');
+         }
+     </script>
 </body>
 </html>
