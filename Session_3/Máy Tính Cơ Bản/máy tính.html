@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4"><input id="input_num" disabled></td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" value="7" onclick="ClickButton('7')">7</button>
+        </td>
+        <td>
+            <button type="button" value="8" onclick="ClickButton('8')">8</button>
+        </td>
+        <td>
+            <button type="button" value="9" onclick="ClickButton('9')">9</button>
+        </td>
+        <td>
+            <button type="button" value="+" onclick="ClickButtonOperator('+')">+</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" value="4" onclick="ClickButton('4')">4</button>
+        </td>
+        <td>
+            <button type="button" value="5" onclick="ClickButton('5')">5</button>
+        </td>
+        <td>
+            <button type="button" value="6" onclick="ClickButton('6')">6</button>
+        </td>
+        <td>
+            <button type="button" value="-" onclick="ClickButtonOperator('-')">-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" value="1" onclick="ClickButton('1')">1</button>
+        </td>
+        <td>
+            <button type="button" value="2" onclick="ClickButton('2')">2</button>
+        </td>
+        <td>
+            <button type="button" value="3" onclick="ClickButton('3')">3</button>
+        </td>
+        <td>
+            <button type="button" value="*" onclick="ClickButtonOperator('*')">*</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="button" value="0" onclick="ClickButton('0')" class="btn">0</button>
+        </td>
+        <td>
+            <button type="button" value="." onclick="ClickButton('.')" class="btn">.</button>
+        </td>
+        <td>
+            <button type="button" class="btnEqual" onclick="Result()">=</button>
+        </td>
+        <td>
+            <button type="button" value="/" onclick="ClickButtonOperator('/')">:</button>
+        </td>
+    </tr>
+</table>
+<br>
+<hr>
+<!--<input type="text" id="result" disabled>-->
+<script src="main.js"></script>
+</body>
+</html>
