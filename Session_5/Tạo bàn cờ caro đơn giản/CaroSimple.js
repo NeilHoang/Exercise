@@ -1,5 +1,5 @@
 let caro = document.getElementById('carogame');
-let board = []
+let board = [];
 let data = "";
 for (let i = 0; i < 5; i++) {
     board[i] = ['o', 'o', 'o', 'o', 'o'];
