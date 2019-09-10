@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_3</title>
+</head>
+<body>
+<input type="number" id="demo">
+<button type="submit" onclick="Click()">click me!</button>
+<script>
+    function Click() {
+        let number = document.getElementById('demo').value;
+        // console.log(number);
+        let i = 0;
+        let j = 1;
+        let k = i + j;
+        for (let a = 0; a < number; a++) {
+            document.write(k + "<br>");
+            k = i + j;
+            i = j;
+            j = k;
+        }
+    }
+
+</script>
+</body>
+</html>

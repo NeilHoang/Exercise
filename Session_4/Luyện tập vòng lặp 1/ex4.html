@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_4</title>
+</head>
+<body>
+<script>
+    let i = 0;
+    let j = 1;
+    let k = i + j;
+    for (let a =0 ; a <= 20; a++) {
+        document.write(k + "<br>");
+        if (k%5 == 0) {
+            alert(k);
+            break;
+        }
+        k = i + j;
+        i = j;
+        j = k;
+    }
+</script>
+</body>
+</html>

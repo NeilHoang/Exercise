@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_3</title>
+</head>
+<body>
+
+<script>
+    let firstNumber = 0;
+    let secondNumber = 1;
+    let fibonacciNumber = firstNumber + secondNumber;
+    document.write(0 + "<br>");
+
+    let sum =0;
+    for (let index = 0; index <= 19; index++) {
+        document.write(fibonacciNumber + "<br>");
+        //Tinh tong
+        fibonacciNumber = firstNumber + secondNumber;
+        sum1 = sum + fibonacciNumber;
+        sum2 = sum1 + fibonacciNumber;
+        document.write(fibonacciNumber + '+' + sum1 + '=' + sum2 + "<br>");
+        // Tinh so fibonacci
+        firstNumber = secondNumber;
+        secondNumber = fibonacciNumber;
+    }
+    document.write('Sum = : ' + sum + "<br>");
+
+</script>
+</body>
+</html>
