@@ -18,7 +18,7 @@ function ChangeValue() {
     let columnChange = Number(prompt("Nhập vào vị trí cột muốn chọn: "));
 
     data = "";
-    board[lineChange][columnChange] = "x";
+    board[lineChange][columnChange] = "x"
     for (let i = 0; i < 5; i++) {
         data = data + "<br>";
         for (let j = 0; j < 5; j++) {
