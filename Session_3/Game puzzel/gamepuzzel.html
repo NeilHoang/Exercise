@@ -11,16 +11,22 @@
   <script>
       function doi(id) {
            let img = document.getElementById(id);
-           if (img.alt == "1") {
-               img.alt = "2";
-           }else  if (img.alt == "2") {
-               img.alt = "3";
-           }else {
-               img.alt = "1";
+           switch (img.alt) {
+               case "1" :
+                   img.alt = "2";
+                   img.src = "1.jpg";
+                   break;
+               case "2" :
+                   img.alt = "3";
+                   img.src = "2.jpg"
+                   break;
+               case "3" :
+                   img.alt = "1";
+                   img.src = "3.jpg"
+                   break;
            }
-           img.src = id + ".ipg";
 
-      }
+           }
   </script>
 </body>
 </html>
