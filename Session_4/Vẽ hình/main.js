@@ -12,13 +12,13 @@ function Draw() {
         for (colsCount = 1; colsCount <= colsDraw; colsCount++) {
             if (!fill.checked) {
                 if (rowsCount == 1 || rowsCount == rowsDraw || colsCount == 1 || colsCount == colsDraw) {
-                    canvas1.innerHTML += "=";
+                    canvas1.innerHTML += "*";
                 } else {
                     canvas1.innerHTML += " "
                 }
             }
             else {
-                canvas1.innerHTML += "=";
+                canvas1.innerHTML += "*";
             }
         }
     }
