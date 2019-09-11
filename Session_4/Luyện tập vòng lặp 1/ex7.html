@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_7</title>
+</head>
+<body>
+    <script>
+        let NumberSwapi;
+        for (let i = 1; i <= 200; i++) {
+            if (i % 15 == 0) {
+                NumberSwapi = "FizzBuzz";
+            } else if (i % 3 == 0) {
+                NumberSwapi = "Fizz";
+            } else if (i % 5 == 0) {
+                NumberSwapi = "Buzz";
+            } else {
+                NumberSwapi = i;
+            }
+            document.write(NumberSwapi + " , ");
+        }
+    </script>
+</body>
+</html>

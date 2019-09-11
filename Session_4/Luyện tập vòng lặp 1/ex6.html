@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex_6</title>
+</head>
+<body>
+<input type="button" value="Bai 6" onclick="Exam6()">
+    <script>
+        function Exam6() {
+            let Count1 = 0;
+            let GetDataNumber = 1;
+            let total = 0;
+            while (Count1 < 30) {
+                if (GetDataNumber % 7 == 0) {
+                    total += GetDataNumber;
+                    Count1++;
+                }
+                GetDataNumber++
+            }
+            document.write(total);
+        }
+    </script>
+</body>
+</html>

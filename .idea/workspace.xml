@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Session_4/Luyện tập vòng lặp 1/ex7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4/Luyện tập vòng lặp 1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_6/Tìm giá trị nhỏ nhất của mảng/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3/Máy Tính Cơ Bản/maytinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_4/Luyện tập vòng lặp 1/ex5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_4/Luyện tập vòng lặp 1/ex5.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +14,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Exercise" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -21,17 +28,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1QLzgkJPRzVWHeeCThYEKJKVmcT" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -58,6 +72,23 @@
       <workItem from="1567564778565" duration="20431000" />
       <workItem from="1567614524740" duration="101000" />
       <workItem from="1567644980950" duration="402000" />
+      <workItem from="1568164895738" duration="2797000" />
+      <workItem from="1568173505722" duration="256000" />
+      <workItem from="1568173814112" duration="171000" />
+      <workItem from="1568174044209" duration="116000" />
+      <workItem from="1568174210698" duration="144000" />
+      <workItem from="1568175256578" duration="4000" />
+      <workItem from="1568175465605" duration="35000" />
+      <workItem from="1568175553964" duration="56000" />
+      <workItem from="1568175662016" duration="42000" />
+      <workItem from="1568175756482" duration="74000" />
+      <workItem from="1568175893674" duration="319000" />
+      <workItem from="1568176268516" duration="54000" />
+      <workItem from="1568176376802" duration="13000" />
+      <workItem from="1568176441968" duration="42000" />
+      <workItem from="1568176584437" duration="109000" />
+      <workItem from="1568176759319" duration="326000" />
+      <workItem from="1568183422044" duration="1817000" />
     </task>
     <servers />
   </component>
