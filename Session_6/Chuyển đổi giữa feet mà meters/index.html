@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+    <center>
+        <h3>JavaScript Meters to Feet <-></h3>
+        <p>Mời bạn nhập vào một trong hai ô bên dưới</p>
+        <p><input id="Meters" onkeyup="convert('Meters')">Meters</p>
+        <p><input id="Foot" onkeyup="convert('Foot')">Feet</p>
+        <script>
+            function convert(degree) {
+                let x;
+                if (degree == "Meters") {
+                    x = document.getElementById('Meters').value * 2.279;
+                    document.getElementById('Foot').value = x;
+                }else {
+                    x = document.getElementById('Foot').value * 0.305;
+                    document.getElementById('Meters').value = x;
+                }
+            }
+        </script>
+    </center>
+</body>
+</html>
