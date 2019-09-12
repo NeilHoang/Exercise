@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Session_6/Game Black-Red/Black-Red.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_6/Game Black-Red/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 01/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập 1-&gt;7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập 1-&gt;7.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -103,7 +107,7 @@
       <workItem from="1568195081463" duration="8883000" />
       <workItem from="1568222901232" duration="204000" />
       <workItem from="1568249563357" duration="8446000" />
-      <workItem from="1568268844180" duration="1192000" />
+      <workItem from="1568268844180" duration="5728000" />
     </task>
     <servers />
   </component>
