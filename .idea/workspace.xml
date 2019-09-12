@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/baitap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bai8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/baitap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/baitap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="bài tập.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bài tập.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,7 +102,10 @@
       <workItem from="1568176759319" duration="326000" />
       <workItem from="1568183422044" duration="2817000" />
       <workItem from="1568188826246" duration="4726000" />
-      <workItem from="1568195081463" duration="8857000" />
+      <workItem from="1568195081463" duration="8883000" />
+      <workItem from="1568222901232" duration="204000" />
+      <workItem from="1568249563357" duration="8446000" />
+      <workItem from="1568268844180" duration="333000" />
     </task>
     <servers />
   </component>
