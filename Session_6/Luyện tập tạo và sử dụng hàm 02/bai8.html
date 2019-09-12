@@ -6,15 +6,17 @@
 </head>
 <body>
 <center>
-    <p id="demo"></p>
     <button onclick="myFunction()">Try it</button>
-    <script>
-        function myFunction() {
-            let characters = prompt("Enter the characters: ");
-            document.getElementById('demo').innerHTML = characters;
-            // characters.reverse();
-            document.getElementById('demo').innerHTML = characters;
 
+    <p id="demo"></p>
+
+    <script>
+        var fruits = ["Bùi Văn Hoàng", " Love You", " 😞 😞 😞 "];
+        document.getElementById("demo").innerHTML = fruits;
+
+        function myFunction() {
+            fruits.reverse();
+            document.getElementById("demo").innerHTML = fruits;
         }
     </script>
 </center>
