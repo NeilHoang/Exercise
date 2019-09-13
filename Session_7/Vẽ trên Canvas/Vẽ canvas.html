@@ -8,18 +8,36 @@
 <fieldset>
     <canvas id="myCanvas" width="200" height="100"></canvas>
     <canvas id="canvas" width="200" height="100"></canvas>
+    <canvas id="arc" width="300" height="200"></canvas>
+    <canvas id="gradient" width="200" height="100"></canvas>
     <script>
         let c = document.getElementById("myCanvas");
         let a = document.getElementById("canvas");
+        let b = document.getElementById("arc");
+        //let d = document.getElementById("gradient");
+
         let ctx = c.getContext("2d");
         ctx.moveTo(0,0);
         ctx.lineTo(200,100);
         ctx.stroke();
+
         let asd = a.getContext("2d");
         asd.moveTo(200,0);
         asd.lineTo(0,100);
         asd.stroke();
+
+        let qaz = b.getContext("2d");
+        qaz.beginPath();
+        qaz.arc(200,100,80,0,2*Math.PI);
+        qaz.stroke();
+
+        // let qsx = d.getContext("2d");
+        // let grd = qsx.createRadialGradient(75,50,5,90,60,100);
+        // grd.addColorStop(0,"red");
+        // grd.addColorStop(1,"green");
+        // ctx.fillStyle = grd;
+        // ctx.fillRect(10,10,150,80);
     </script>
-    </fieldset>
+</fieldset>
 </body>
 </html>
