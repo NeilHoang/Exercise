@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Session_7/Funny circles/Funny circles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp hình tròn/Circle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp hình tròn/Circle.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,7 +104,7 @@
       <workItem from="1568222901232" duration="204000" />
       <workItem from="1568249563357" duration="8446000" />
       <workItem from="1568268844180" duration="6147000" />
-      <workItem from="1568336372133" duration="7830000" />
+      <workItem from="1568336372133" duration="11362000" />
     </task>
     <servers />
   </component>
