@@ -5,44 +5,43 @@
     <title>Rectangle</title>
 </head>
 <body>
-    <canvas id="myCanvas" width="1368px" height="768px" style="border: 1px solid #d3d3d3;"></canvas>
+    <canvas id="myCanvas" width="1000px" height="500px" style="border: 3px solid #d3d3d3;"></canvas>
     <center>
         <script>
             let Rectangle = function (height, width) {
-
                 this.height = height;
                 this.width = width;
-
-                this.getHeight = function () {
-                    return this.height;
-                };
-                this.getWidth = function () {
+                 this.getHeight = function () {
+                     return this.height;
+                 };
+                 this.getWidth = function () {
                     return this.width;
                 };
-                this.getPerimeter = function () {
-                    return (this.height + this.width) * 2;
-                };
-                this.getAcreage = function () {
-                    return this.width * this.height;
-                }
+                 this.getAcreage = function () {
+                     return this.getWidth() * this.getHeight();
+                 };
+                 this.getPerimeter = function () {
+                     return (this.width + this.height) * 2;
+                 }
             };
-            let height = Number(prompt("nhập vào chiều dài: "));
-            let width = Number(prompt("Nhập vào chiều rộng: "));
-            let x = Math.floor(Math.random()*1368);
-            let y = Math.floor(Math.random()*768);
+            let height = Number(prompt("Enter the height: "));
+            let width = Number(prompt("Enter the width: "));
+            let x = Math.floor(Math.random()*1000);
+            let y = Math.floor(Math.random()*500);
 
             function drawSquare() {
-                let ctx = document.getElementById("MyCanvas").getContext("2d");
+                let ctx = document.getElementById("myCanvas").getContext("2d");
                 let square = new Rectangle(height, width);
                 ctx.beginPath();
-                ctx.rect(x, y, square.height, square.width);
-                ctx.fillStyle = "red "
+                ctx.rect(x,y, square.height, square.width);
+                ctx.fillStyle = "pink";
                 ctx.fill();
                 alert("Chu vi hình chữ nhật: " + square.getPerimeter());
-                alert("Diện tích hình chữ nhật là: " + square.getAcreage());
+                alert("diện tích hình chữ nhật là: " + square.getAcreage());
             }
 
             drawSquare();
+
         </script>
     </center>
 </body>

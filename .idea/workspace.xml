@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả Temperature/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/Main_build_class_Mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/nokia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả Temperature/temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả Temperature/temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả chữ nhật/Rectangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả chữ nhật/Rectangle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/Main_build_class_Mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/Main_build_class_Mobile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +111,7 @@
       <workItem from="1568394785523" duration="785000" />
       <workItem from="1568546709113" duration="646000" />
       <workItem from="1568553787070" duration="924000" />
-      <workItem from="1568596013251" duration="2703000" />
+      <workItem from="1568596013251" duration="6948000" />
     </task>
     <servers />
   </component>
