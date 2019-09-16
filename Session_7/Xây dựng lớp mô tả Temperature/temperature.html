@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<center>
+    <script>
+        let Temperature = function (celsius) {
+            this.celsius = celsius;
+
+            this.getCelsius = function () {
+                return this.celsius;
+            };
+            this.getConvertToF = function () {
+                return this.celsius * 1.8 + 32;
+            };
+            this.getConvertToK = function () {
+                return this.celsius + 273.15;
+            };
+        };
+        let temp = new Temperature(prompt("Nhập độ C: "));
+        let F = temp.getConvertToF();
+        let K = temp.getConvertToK();
+        alert(`${temp.getCelsius()} độ C = ${F} độ F`);
+        // alert(temp.getCelsius() + "do C = " + F + "do F");
+        alert(`${temp.getCelsius()} độ K = ${K} độ K`);
+        // document.write(temp.getCelsius() + "do C = " + F + " do F ")
+    </script>
+</center>
+</body>
+</html>
