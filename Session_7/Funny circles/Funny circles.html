@@ -26,7 +26,7 @@
 
         function createCircle(){
             let ctx = document.getElementById("myCanvas").getContext("2d");
-            let radius = Math.floor(Math.random() * 80);
+            let radius = Math.floor(Math.random() * 70);
             console.log(radius);
             let color = getRandomColor();
             let x = Math.random() * 1368;
@@ -38,7 +38,7 @@
             ctx.fill();
         }
 function mutilCircle() {
-    setInterval(createCircle,1)
+    setInterval(createCircle,100)
 }
         mutilCircle();
 
