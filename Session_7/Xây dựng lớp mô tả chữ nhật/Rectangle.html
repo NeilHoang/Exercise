@@ -21,7 +21,7 @@
                      return this.getWidth() * this.getHeight();
                  };
                  this.getPerimeter = function () {
-                     return (this.width + this.height) * 2;
+                     return (this.getWidth() + this.getHeight()) * 2;
                  }
             };
             let height = Number(prompt("Enter the height: "));
