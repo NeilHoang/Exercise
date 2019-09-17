@@ -5,36 +5,81 @@
     <title>Title</title>
 </head>
 <body>
-<fieldset>
-    <legend>Adam & Eva</legend>
-    <table>
-        <tr>
-            <td><p id="showApple"></p></td>
-        </tr>
-        <tr>
-            <td>
-                <button type="button" onclick="EatAnApple(adam)">Adam Ăn</button>
-            </td>
-            <td>
-                <button type="button" onclick="EatAnApple(eva)">Eva Ăn</button>
-
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p id="showWeightAdam"></p>
-            </td>
-            <td>
-                <p id="showWeightEva"></p>
-            </td>
-        </tr>
-
-    </table>
-
-
-
-</fieldset>
-
+<script>
+    let Apple = function (weight) {
+        this.weight = weight;
+        this.decrease = function () {
+            this.weight = this.weight - 1;
+        };
+        this.isEmpty = function () {
+            if (this.weight > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        };
+        this.getWeight = function () {
+            return this.weight;
+        };
+    };
+    let Human = function (name, gender, weight) {
+        this.name = name;
+        this.gender = gender;
+        this.weight = weight;
+        this.isMale = function () {
+            return this.gender;
+        };
+        this.setGender = function (new_gender) {
+            this.gender = new_gender;
+        };
+        this.checkApple = function (apple) {
+            if (weight > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        };
+        this.eat = function (apple) {
+            if (apple.getWeight() > 0) {
+                this.weight = this.weight + 1;
+            }
+            if (apple.getWeight() === 0) {
+                console.log("hết táo");
+            }
+            return apple.decrease();
+        };
+        this.say = function () {
+            console.log("apple")
+        };
+        this.getName = function () {
+            return this.name;
+        };
+        this.setName = function (new_name) {
+            this.name = new_name;
+        };
+        this.getWeight = function () {
+            return this.weight;
+        };
+        this.setWeight = function (new_weight) {
+            this.weight = new_weight;
+        };
+    };
+    let apple = new Apple(10);
+    let adam = new Human("adam", "male", 50);
+    for (let i = 0; i < 3; i++) {
+        adam.eat(apple);
+        adam.getWeight();
+        adam.checkApple();
+        apple.getWeight();
+        let eva = new Human("eva", "female", 40);
+        eva.eat(apple);
+        eva.getWeight();
+        console.log("weight adam : " + " " + adam.getWeight());
+        console.log("weight eva : " + " " + eva.getWeight());
+        console.log("weight apple : " + " " + apple.getWeight());
+        adam.say();
+        eva.say();
+    }
+</script>
 </body>
-<script src="Main_L_App_Simulation_Adam_Eva.js"></script>
 </html>
