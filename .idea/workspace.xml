@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/MyPhone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/light bulb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_8/Xây dựng lớp mô phỏng sự hoạt động của đèn pin/Flashlight.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả chữ nhật/Rectangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả chữ nhật/Rectangle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/Main_build_class_Mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_7/Xây dựng lớp mô tả điện thoại/nokia.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +110,12 @@
       <workItem from="1568394785523" duration="785000" />
       <workItem from="1568546709113" duration="646000" />
       <workItem from="1568553787070" duration="924000" />
-      <workItem from="1568596013251" duration="9909000" />
+      <workItem from="1568596013251" duration="10052000" />
+      <workItem from="1568644724569" duration="155000" />
+      <workItem from="1568646468097" duration="377000" />
+      <workItem from="1568648228310" duration="105000" />
+      <workItem from="1568681530284" duration="679000" />
+      <workItem from="1568692452741" duration="2926000" />
     </task>
     <servers />
   </component>
