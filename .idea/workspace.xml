@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/light bulb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_8/Xây dựng lớp mô phỏng sự hoạt động của đèn pin/Flashlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_8/Game đơn giản - di chuyển đối tượng/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_8/Game đơn giản - di chuyển đối tượng/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -115,7 +115,7 @@
       <workItem from="1568646468097" duration="377000" />
       <workItem from="1568648228310" duration="105000" />
       <workItem from="1568681530284" duration="679000" />
-      <workItem from="1568692452741" duration="2926000" />
+      <workItem from="1568692452741" duration="4792000" />
     </task>
     <servers />
   </component>
