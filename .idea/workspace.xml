@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/lamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/lamp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +126,7 @@
       <workItem from="1568733624215" duration="1526000" />
       <workItem from="1568735236719" duration="68000" />
       <workItem from="1568735313035" duration="1388000" />
-      <workItem from="1568768225318" duration="3295000" />
+      <workItem from="1568768225318" duration="3571000" />
     </task>
     <servers />
   </component>
