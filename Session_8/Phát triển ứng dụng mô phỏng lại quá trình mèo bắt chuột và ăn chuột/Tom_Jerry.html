@@ -6,19 +6,21 @@
 </head>
 <body>
 <script>
-    let Rat = function (name, weight, speed, status) {
+    let Rat = function (name, weight, speed) {
         this.name = name;
         this.weight = weight;
         this.speed = speed;
-        this.status = status;
+        this.status = true;
         this.say = function () {
             console.log("chit chit");
             return this.say;
         };
         this.checkStatus = function () {
             if (this.status) {
+                return true;
                 console.log("chuột sống");
             } else {
+                return false;
                 console.log("chuột chết")
             }
         };
@@ -58,11 +60,14 @@
             }
         };
         this.eat = function (Rat) {
-            if (Rat.status) {
+            if (Rat.checkStatus()) {
                 this.weight = this.weight + Rat.weight;
+                Rat.status=false;
+                Rat.speed=0;
                 console.log("ăn")
             } else {
-                console.log("không ăn")
+                console.log("không ăn");
+                Rat.status=true;
             }
         };
         this.getName = function () {
@@ -88,8 +93,10 @@
     let Cat1 = new Cat("mèo", 3, 4);
     Rat1.checkStatus();
     Cat1.getWeight();
+    console.log(Cat1.getWeight());
     Cat1.hunting(Rat1);
     console.log(Rat1);
+    console.log(Cat1);
     console.log("cân nặng của mèo sau khi ăn là : " + Cat1.getWeight());
 </script>
 </body>
