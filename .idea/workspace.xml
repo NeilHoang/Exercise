@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển trò chơi cờ ca-ro/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển trò chơi cờ ca-ro/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển trò chơi cờ ca-ro/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/TH Kiểm tra chữ hoa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/TH Kiểm tra mã quốc gia Mĩ/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/TH Kiểm tra mã quốc gia Mĩ/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -135,6 +134,9 @@
       <workItem from="1568768225318" duration="7148000" />
       <workItem from="1568790296267" duration="20000" />
       <workItem from="1568790323265" duration="1322000" />
+      <workItem from="1568798024985" duration="22000" />
+      <workItem from="1568798057233" duration="338000" />
+      <workItem from="1568798433002" duration="1678000" />
     </task>
     <servers />
   </component>
