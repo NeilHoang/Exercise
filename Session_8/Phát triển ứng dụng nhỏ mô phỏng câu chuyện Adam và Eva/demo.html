@@ -43,10 +43,10 @@
             if (apple.getWeight() > 0) {
                 this.weight = this.weight + 1;
             }
-            if (apple.getWeight() === 0) {
+            else if (apple.getWeight() === 0) {
                 console.log("hết táo");
             }
-            return apple.decrease();
+            apple.decrease();
         };
         this.say = function () {
             console.log("apple")
@@ -66,14 +66,15 @@
     };
     let apple = new Apple(10);
     let adam = new Human("adam", "male", 50);
-    for (let i = 0; i < 3; i++) {
+    let eva = new Human("eva", "female", 40);
+    for (let i = 0; i < 5; i++) {
         adam.eat(apple);
         adam.getWeight();
         adam.checkApple();
         apple.getWeight();
-        let eva = new Human("eva", "female", 40);
         eva.eat(apple);
         eva.getWeight();
+        eva.checkApple();
         console.log("weight adam : " + " " + adam.getWeight());
         console.log("weight eva : " + " " + eva.getWeight());
         console.log("weight apple : " + " " + apple.getWeight());

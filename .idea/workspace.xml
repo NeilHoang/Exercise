@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột/Tom_Jerry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/adameva.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/lamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/lamp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +61,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.demo.html">
     <configuration name="bài tập.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise/Session_6/Luyện tập tạo và sử dụng hàm 02/bài tập.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lamp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise/Session_8/Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng công tắc và bóng đèn/lamp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo.html" />
+        <item itemvalue="JavaScript Debug.lamp.html" />
         <item itemvalue="JavaScript Debug.bài tập.html" />
       </list>
     </recent_temporary>
@@ -120,7 +128,8 @@
       <workItem from="1568727647021" duration="1319000" />
       <workItem from="1568733624215" duration="1526000" />
       <workItem from="1568735236719" duration="68000" />
-      <workItem from="1568735313035" duration="342000" />
+      <workItem from="1568735313035" duration="1388000" />
+      <workItem from="1568768225318" duration="3295000" />
     </task>
     <servers />
   </component>
