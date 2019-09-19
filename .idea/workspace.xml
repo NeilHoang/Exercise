@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate account/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate account/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate email/javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate email/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate tên của lớp học/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate tên của lớp học/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIzzBuzz/fizz-buzz-number.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIzzBuzz/fizz-buzz-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FIzzBuzz/test-result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FizzBuzz/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_9/BT Validate email/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_9/BT Validate email/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +138,7 @@
       <workItem from="1568798057233" duration="338000" />
       <workItem from="1568798433002" duration="2068000" />
       <workItem from="1568812698463" duration="65000" />
-      <workItem from="1568854410627" duration="2074000" />
+      <workItem from="1568854410627" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>
