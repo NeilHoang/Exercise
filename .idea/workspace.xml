@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/adidass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí sản phẩm/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_9/BT Validate số điện thoại/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memory/CaseStudy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memory/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Ai-La-Nguoi-Thuong-Em-Quan-A-P.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Ai-La-Nguoi-Thuong-Em-Quan-A-P.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Bac-Phan-Jack-K-ICM.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Bac-Phan-Jack-K-ICM.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Buoc-Qua-Doi-Nhau-Le-Bao-Binh.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Buoc-Qua-Doi-Nhau-Le-Bao-Binh.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Co-Tat-Ca-Nhung-Thieu-Anh-ERIK.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Co-Tat-Ca-Nhung-Thieu-Anh-ERIK.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Loi-Yeu-Ngay-Dai-Kha.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Loi-Yeu-Ngay-Dai-Kha.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Song-Gio-Jack-K-ICM.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Song-Gio-Jack-K-ICM.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Thay-Toi-Yeu-Co-Ay-Thanh-Hung.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Thay-Toi-Yeu-Co-Ay-Thanh-Hung.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /The-Tu-Remix-Minh-Vuong-M4U-Huong-Ly.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/The-Tu-Remix-Minh-Vuong-M4U-Huong-Ly.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Tranh-Duyen-Remix-Dinh-Dung-Htrol.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Tranh-Duyen-Remix-Dinh-Dung-Htrol.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Tuong-Quan-Remix-Nhat-Phong-DinhLong.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Tuong-Quan-Remix-Nhat-Phong-DinhLong.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc trẻ /Yeu-Ai-De-Khong-Phai-Khoc-Huong-Ly.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music/Yeu-Ai-De-Khong-Phai-Khoc-Huong-Ly.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Boi-Bac-Duong-Hong-Loan.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Boi-Bac-Duong-Hong-Loan.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Cat-Bui-Cuoc-Doi-Truong-Son.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Cat-Bui-Cuoc-Doi-Truong-Son.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Chieu-San-Ga-Giang-Tien.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Chieu-San-Ga-Giang-Tien.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Chuyen-Tinh-Khong-Di-Vang-Quang-Le.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Chuyen-Tinh-Khong-Di-Vang-Quang-Le.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Con-Duong-Xua-Em-Di-Luu-Anh-Loan-Le-Sang.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Con-Duong-Xua-Em-Di-Luu-Anh-Loan-Le-Sang.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Dap-Mo-Cuoc-Tinh-Le-Sang.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Dap-Mo-Cuoc-Tinh-Le-Sang.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Doan-Tuyet-Le-Quyen.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Doan-Tuyet-Le-Quyen.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Duyen-Phan-Nhu-Quynh.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Duyen-Phan-Nhu-Quynh.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Lai-Nho-Nguoi-Yeu-Luu-Anh-Loan-Doan-Minh.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Lai-Nho-Nguoi-Yeu-Luu-Anh-Loan-Doan-Minh.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Noi-Lai-Tinh-Xua-Nhu-Quynh-Manh-Quynh.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Noi-Lai-Tinh-Xua-Nhu-Quynh-Manh-Quynh.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Sau-Tim-Thiep-Hong-Quang-Le-Le-Quyen.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Trach-Ai-Vo-Tinh-Phi-Nhung.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Trach-Ai-Vo-Tinh-Phi-Nhung.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/Nhạc vàng/Vung-La-Me-Bay-Nhu-Quynh.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/audio/Vung-La-Me-Bay-Nhu-Quynh.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_8/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/demo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -142,7 +167,9 @@
       <workItem from="1568798057233" duration="338000" />
       <workItem from="1568798433002" duration="2068000" />
       <workItem from="1568812698463" duration="65000" />
-      <workItem from="1568854410627" duration="4840000" />
+      <workItem from="1568854410627" duration="5218000" />
+      <workItem from="1568876049057" duration="6554000" />
+      <workItem from="1568900558070" duration="6171000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>
