@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>My_Music</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="music.js"></script>
+    <style>
+        table, th, td {
+            border: 6px solid springgreen;
+        }
+    </style>
 </head>
 <body>
 <fieldset>
-    <h2>
-        <legend style="color: darkmagenta">My Music</legend>
-    </h2>
-    <table class="table">
+    <center>
+        <h1>
+            <legend style="color: darkmagenta">My Music</legend>
+        </h1>
+        <h2>
+            <input id="input" type="text">
+            <button type="button" onclick=" ">Search Music </button>
+        </h2>
+    </center>
+    <table class="table" style="margin-left: 13%">
         <thead class="thead-dark">
         <tr>
             <th scope="col">STT</th>
@@ -22,120 +30,113 @@
             <th scope="col">Tác Giả</th>
         </tr>
         </thead>
-        <tbody>
+        <body>
         <tr>
             <th scope="row">1</th>
-            <td>Ai Là Người Thương Em </td>
+            <td><b>Ai Là Người Thương Em </b></td>
             <td>
                 <audio id="myAudio" controls style="height: 20px">
                     <source src="music/Ai-La-Nguoi-Thuong-Em-Quan-A-P.mp3" type="audio/mp3">
                 </audio>
             </td>
-            <td>Quân A.P</td>
-            <td>Quân A.P</td>
+            <th>Quân A.P</th>
+            <th>Quân A.P</th>
         </tr>
         <tr>
             <th scope="row">2</th>
-            <td>Bạc Phận </td>
-            <td>
+            <th><b>Bạc Phận </b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Bac-Phan-Jack-K-ICM.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td>Jack-K-ICM</td>
-            <td>Jack-K-ICM</td>
+            </th>
+            <th>Jack-K-ICM</th>
+            <th>Jack-K-ICM</th>
         </tr>
         <tr>
             <th scope="row">3</th>
-            <td>Sóng Gió </td>
-            <td>
+            <th><b>Sóng Gió </b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Song-Gio-Jack-K-ICM.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td>Jack-K-ICM</td>
-            <td>Jack-K-ICM</td>
-
+            </th>
+            <th>Jack-K-ICM</th>
+            <th>Jack-K-ICM</th>
         </tr>
         <tr>
             <th scope="row">4</th>
-            <td>Có Tất Cả Nhưng Thiếu Anh </td>
-            <td>
+            <th><b>Có Tất Cả Nhưng Thiếu Anh </b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Co-Tat-Ca-Nhung-Thieu-Anh-ERIK.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td>ERIK</td>
-            <td>Phan Anh</td>
+            </th>
+            <th>ERIK</th>
+            <th>Phan Anh</th>
 
-        </tr> <tr>
+        </tr>
+        <tr>
             <th scope="row">5</th>
-            <td>Thê Tử</td>
-            <td>
+            <th><b>Thê Tử</b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/The-Tu-Remix-Minh-Vuong-M4U-Huong-Ly.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td>Hương Ly-Minh Vương M4U</td>
-            <td>Hương Ly</td>
+            </th>
+            <th>Hương Ly-Minh Vương M4U</th>
+            <th>Hương Ly</th>
 
-        </tr> <tr>
+        </tr>
+        <tr>
             <th scope="row">6</th>
-            <td>Thay Tôi Yêu Cô Ấy</td>
-            <td>
+            <th><b>Thay Tôi Yêu Cô Ấy</b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Thay-Toi-Yeu-Co-Ay-Thanh-Hung.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td>Thanh Hưng</td>
-            <td>Thanh Hưng</td>
+            </th>
+            <th>Thanh Hưng</th>
+            <th>Thanh Hưng</th>
 
-        </tr> <tr>
+        </tr>
+        <tr>
             <th scope="row">7</th>
-            <td>Tướng Quân</td>
-            <td>
+            <th><b>Tướng Quân</b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Tuong-Quan-Remix-Nhat-Phong-DinhLong.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td style="color: aqua">Nhật Phong</td>
-            <td style="color: coral">Đình Dũng</td>
+            </th>
+            <th>Nhật Phong</th>
+            <th>Đình Dũng</th>
 
-        </tr> <tr>
+        </tr>
+        <tr>
             <th scope="row">8</th>
-            <td>Yêu Ai Để Không Phải Khóc</td>
-            <td>
+            <th><b>Yêu Ai Để Không Phải Khóc</b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Yeu-Ai-De-Khong-Phai-Khoc-Huong-Ly.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td style="color: aqua">Hương Ly</td>
-            <td style="color: coral">Hương Ly</td>
-
-        </tr> <tr>
+            </th>
+            <th>Hương Ly</th>
+            <th>Hương Ly</th>
+        </tr>
+        <tr>
             <th scope="row">9</th>
-            <td>Tránh Duyên</td>
-            <td>
+            <th><b>Tránh Duyên</b></th>
+            <th>
                 <audio controls style="height: 20px">
                     <source src="music/Tranh-Duyen-Remix-Dinh-Dung-Htrol.mp3" type="audio/mp3">
                 </audio>
-            </td>
-            <td style="color: aqua">Đình Dũng</td>
-            <td style="color: coral">Htrol</td>
+            </th>
+            <th>Đình Dũng</th>
+            <th>Htrol</th>
 
         </tr>
-        </tbody>
+        </body>
     </table>
-
 </fieldset>
-<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"-->
-<!--        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"-->
-<!--        crossorigin="anonymous"></script>-->
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"-->
-<!--        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"-->
-<!--        crossorigin="anonymous"></script>-->
-<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"-->
-<!--        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"-->
-<!--        crossorigin="anonymous"></script>-->
 </body>
 </html>

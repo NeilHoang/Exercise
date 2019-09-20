@@ -21,5 +21,4 @@ let Manage = function (product,id) {
         this.product.reNameProduct(input.name(), location.id)
     };
 
-
 };
