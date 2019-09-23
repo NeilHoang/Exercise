@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Session_6/Quản lí sản phẩm/index.html" afterDir="false" />
+    <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="test key fizzbuzznumber">
+      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí sản phẩm/adidass.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí sản phẩm/adidass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí sản phẩm/manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí sản phẩm/manage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/nhaccuatui.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/nhaccuatui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/nhaccuatui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2/use_variables/hinhchunhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2/use_variables/hinhchunhat.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -146,7 +146,15 @@
       <workItem from="1568876049057" duration="6554000" />
       <workItem from="1568900558070" duration="6426000" />
       <workItem from="1568909023117" duration="297000" />
-      <workItem from="1568941185194" duration="18003000" />
+      <workItem from="1568941185194" duration="23583000" />
+      <workItem from="1569038164871" duration="799000" />
+      <workItem from="1569127746199" duration="448000" />
+      <workItem from="1569156905551" duration="1881000" />
+      <workItem from="1569160510397" duration="1097000" />
+      <workItem from="1569178667979" duration="7000" />
+      <workItem from="1569200329663" duration="1172000" />
+      <workItem from="1569206953986" duration="68000" />
+      <workItem from="1569210754899" duration="3024000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>

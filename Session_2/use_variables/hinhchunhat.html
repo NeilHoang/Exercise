@@ -6,10 +6,12 @@
 </head>
 <body>
      <script>
-         let width =20;
-         let height = 10
-         let area = width * height
-         document.write('Area = ' + area)
+         let width = Number(prompt("Nhập chiều rộng: "));
+         let height = Number(prompt("Nhập chiều dài: "));
+         let area = width * height;
+         let perimeter = (width + height) * 2;
+         alert('Area = ' + area);
+         alert('perimeter = ' + perimeter);
      </script>
 </body>
 </html>
