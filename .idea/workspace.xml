@@ -24,8 +24,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -154,7 +154,7 @@
       <workItem from="1569178667979" duration="7000" />
       <workItem from="1569200329663" duration="1172000" />
       <workItem from="1569206953986" duration="68000" />
-      <workItem from="1569210754899" duration="3024000" />
+      <workItem from="1569210754899" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>
