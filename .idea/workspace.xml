@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="test key fizzbuzznumber">
-      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/MyMusic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/nhaccuatui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2/use_variables/hinhchunhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2/use_variables/hinhchunhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/music.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +19,8 @@
       <list>
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,6 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Quản lí âm nhạc" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -54,6 +50,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Quản lí âm nhạc" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -154,7 +155,10 @@
       <workItem from="1569178667979" duration="7000" />
       <workItem from="1569200329663" duration="1172000" />
       <workItem from="1569206953986" duration="68000" />
-      <workItem from="1569210754899" duration="6820000" />
+      <workItem from="1569210754899" duration="14462000" />
+      <workItem from="1569245303501" duration="333000" />
+      <workItem from="1569245747087" duration="2966000" />
+      <workItem from="1569249795110" duration="6432000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>
