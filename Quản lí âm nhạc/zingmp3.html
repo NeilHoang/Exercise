@@ -8,19 +8,15 @@
 
     <style>
         table, td, th {
-            border: 1px solid #28fcff;
+            border: 1px solid #f4a1ff;
         }
     </style>
+    <link rel="stylesheet" href="zingmp3.css">
 
 </head>
 <body background="1.jpg" style="background-size: 1700px">
 <fieldset>
-    <div class="input-group mb-3">
-        <input id="editValue" type="text" placeholder="edit" style="margin-left: 10px;">
-        <div class="input-group-append">
-            <button class="btn btn-warning" type="button">EDIT</button>
-        </div>
-    </div>
+
     <center>
         <h1>
             <legend style="color: #fc192f"><span style="font-size: 35px">My Music</span></legend>
@@ -31,10 +27,11 @@
             <div>
                 <button type="button" class="btn btn-outline-primary" onclick="seach()"><b>Tìm kiếm nhạc</b></button>
             </div>
-        </form>
 
         <table class="table" style="margin-left: 0%">
             <thead class="thead-dark">
+            <tbody id="demo">
+            </tbody>
             <tr>
                 <th scope="col">STT</th>
                 <th scope="col">Tên Bài Hát</th>
@@ -53,6 +50,27 @@
         </table>
         </div>
     </center>
+    <h>DANH SÁCH BÀI HÁT</h><br>
+    <select style="color: red"  id="select" onchange="selectMusic()">
+        <option value="1">1: Ai Là Người Thương Em</option>
+        <option value="2">2: Bạc Phận</option>
+        <option value="3">3: Bước Qua Đời Nhau</option>
+        <option value="4">4: Có Tất Cả Nhưng Thiếu Anh</option>
+        <option value="5">5: Lời Yêu Ngây Dại</option>
+        <option value="6">6: Sóng gió</option>
+        <option value="7">7: Thay Tôi Yêu Cô Ấy</option>
+        <option value="8">8: Thê Tử</option>
+        <option value="9">9: Yêu Ai Để Không Phải Khóc</option>
+        <option value="10">10: Tướng Quân</option>
+        <option value="11">11: Cát Bụi Cuộc Đời</option>
+        <option value="12">12: Con Đường Xưa Em Đi</option>
+        <option value="13">13: Duyên Phận</option>
+        <option value="14">14: Đoạn Tuyệt</option>
+        <option value="15">15: Lại Nhớ Người Yêu</option>
+        <option value="16">16: Đắp Mộ Cuộc Tình</option>
+        <option value="17">17: Sầu Tím Thiệp Hồng</option>
+        <option value="18">18: Vùng Lá Me Bay</option>
+    </select>
 </fieldset>
 <script src="zingmp3.js"></script>
 </body>
