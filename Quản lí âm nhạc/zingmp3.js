@@ -1,4 +1,4 @@
-let select = document.getElementById('select');
+// let select = document.getElementById('select');
 
 let Music = function (name) {
     this.name = name;
@@ -74,11 +74,11 @@ let info17 = new Info("17","Sầu Tím Thiệp Hồng","Quang Lê-Lê Quỳnh","
 let info18 = new Info("18","Vùng Lá Me Bay","Như Quỳnh","🤗🤗 I don't No","18.mp3");
 let library = new Music();
 library.music.push(info1, info2, info3, info4, info5, info6, info7, info8, info9, info10,info11,info12,info13,info14,info15,info16,info17,info18);
-let selecMusic = document.getElementById('input');
+let selectMusic = document.getElementById('input');
 
-function seach() {
+function search() {
     for (let i = 0; i < library.music.length; i++) {
-        if ((selecMusic.value === library.music[i].stt ) || ((selecMusic.value === library.music[i].name))) {
+        if ((selectMusic.value === library.music[i].stt ) || (library.music[i].name.match(selectMusic.value))) {
             document.getElementById('demo1').innerHTML = library.music[i].getStt();
             document.getElementById('demo2').innerHTML = library.music[i].getName();
             document.getElementById('demo3').innerHTML = `<audio controls autoplay muted loop style="height: 30px">                                                   

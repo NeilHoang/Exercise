@@ -12,7 +12,6 @@
         }
     </style>
     <link rel="stylesheet" href="zingmp3.css">
-
 </head>
 <body background="1.jpg" style="background-size: 1700px">
 <fieldset>
@@ -25,7 +24,7 @@
                 <input type="text" id="input" class="form-control" placeholder="Search Music" style="width: auto">
             </div>
             <div>
-                <button type="button" class="btn btn-outline-primary" onclick="seach()"><b>Tìm kiếm nhạc</b></button>
+                <button type="button" class="btn btn-outline-primary" onclick="search()"><b>Tìm kiếm nhạc</b></button>
             </div>
 
         <table class="table" style="margin-left: 0%">
@@ -51,7 +50,7 @@
         </div>
     </center>
     <h>DANH SÁCH BÀI HÁT</h><br>
-    <select style="color: red"  id="select" onchange="selectMusic()">
+    <select style="color: sienna"  id="select" onchange="selectMusic()">
         <option value="1">1: Ai Là Người Thương Em</option>
         <option value="2">2: Bạc Phận</option>
         <option value="3">3: Bước Qua Đời Nhau</option>
@@ -73,6 +72,8 @@
     </select>
 </fieldset>
 <script src="zingmp3.js"></script>
+<script src="zingzingmp3.js"></script>
+<canvas id="myCanvas" width="2560px" height="1600px" ></canvas>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
