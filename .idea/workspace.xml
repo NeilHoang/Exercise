@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797b2d0d-de8f-4ae0-a7d5-a5f60f0c6592" name="Default Changelist" comment="test key fizzbuzznumber">
-      <change afterPath="$PROJECT_DIR$/Quản lí âm nhạc/zingzingmp3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debweb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/zingmp3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/zingmp3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quản lí âm nhạc/zingmp3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Quản lí âm nhạc/zingmp3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session_10/Debug/debug" beforeDir="false" afterPath="$PROJECT_DIR$/Session_10/Debug/debug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Session_10/Debug/debug/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_10/Debug/debug/index.html" afterDir="false" />
     </list>
@@ -164,7 +159,7 @@
       <workItem from="1569245303501" duration="333000" />
       <workItem from="1569245747087" duration="2966000" />
       <workItem from="1569249795110" duration="6668000" />
-      <workItem from="1569286156148" duration="16512000" />
+      <workItem from="1569286156148" duration="16778000" />
     </task>
     <task id="LOCAL-00001" summary="first test key">
       <created>1568812357581</created>
