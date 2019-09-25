@@ -6,7 +6,17 @@
 </head>
 <body>
     <script>
+        kiemtrasodienthoaiVT();
 
+        function kiemtrasodienthoaiVT() {
+            let regex = /^0[3][6-9][0-9]{7}$|086[0-9]{7}$|09[678][0-9]{7}$/;
+            let inputPhoneNumber = prompt("Nhập số đt mà bạn muốn kiểm tra:");
+            if (regex.test(inputPhoneNumber)) {
+                alert("Vâng, đây là số VT bạn nhé");
+            } else {
+                alert("No, đây không phải là số VT đâu")
+            }
+        }
     </script>
 </body>
 </html>

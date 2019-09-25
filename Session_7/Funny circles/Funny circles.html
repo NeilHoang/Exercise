@@ -43,5 +43,105 @@ function mutilCircle() {
         mutilCircle();
 
     </script>
+<!--    New Interval Time: <input id="timer" value="1"><br>-->
+<!--    <button id="reset">Reset</button>-->
+<!--    <button id="stop">Stop</button>-->
+<!--    <button id="start">Start</button>-->
+<!--    <hr>-->
+<!--    <div id="logger"></div>-->
+<!--    <script>-->
+<!--        function Timer(fn, t) {-->
+<!--            var timerObj = setInterval(fn, t);-->
+
+<!--            this.stop = function() {-->
+<!--                if (timerObj) {-->
+<!--                    clearInterval(timerObj);-->
+<!--                    timerObj = null;-->
+<!--                }-->
+<!--                return this;-->
+<!--            }-->
+
+<!--            // start timer using current settings (if it's not already running)-->
+<!--            this.start = function() {-->
+<!--                if (!timerObj) {-->
+<!--                    this.stop();-->
+<!--                    timerObj = setInterval(fn, t);-->
+<!--                }-->
+<!--                return this;-->
+<!--            }-->
+
+<!--            // start with new interval, stop current interval-->
+<!--            this.reset = function(newT) {-->
+<!--                t = newT;-->
+<!--                return this.stop().start();-->
+<!--            }-->
+<!--        }-->
+
+<!--        function logTop(msg) {-->
+<!--            var target = document.getElementById("logger");-->
+<!--            var div = document.createElement("div");-->
+<!--            div.innerHTML = msg;-->
+<!--            target.insertBefore(div, target.firstChild);-->
+<!--        }-->
+
+<!--        var cntr = 1;-->
+<!--        var startTime = Date.now();-->
+<!--        var timer = new Timer(function() {-->
+<!--            logTop(cntr++ + ": " + ((Date.now() - startTime) /1000).toFixed(3));-->
+<!--        }, 1000);-->
+
+<!--        document.getElementById("reset").addEventListener("click", function(e) {-->
+<!--            var newTime = +document.getElementById("timer").value * 1000;-->
+<!--            if (newTime) {-->
+<!--                timer.reset(newTime);-->
+<!--            }-->
+<!--        });-->
+
+<!--        document.getElementById("start").addEventListener("click", function(e) {-->
+<!--            timer.start();-->
+<!--        });-->
+
+<!--        document.getElementById("stop").addEventListener("click", function(e) {-->
+<!--            timer.stop();-->
+<!--        });-->
+<!--    </script>-->
+<!--    <canvas id="myCanvas" width="1500px" height="700px" style="border:1px solid #d3d3d3;"></canvas>-->
+
+
+
+<!--    <script>-->
+<!--        function Circle(x, y, radius) {-->
+<!--            this.x = x;-->
+<!--            this.y = y;-->
+<!--            this.radius = radius;-->
+<!--        }-->
+<!--        function getRandomHex() {-->
+<!--            return Math.floor(Math.random() * 255);-->
+<!--        }-->
+<!--        function getRandomColor() {-->
+<!--            let red = getRandomHex();-->
+<!--            let green = getRandomHex();-->
+<!--            let blue = getRandomHex();-->
+<!--            return "rgb(" + red + "," + green + "," + blue + ")";-->
+<!--        }-->
+<!--        function createCircle() {-->
+<!--            let ctx = document.getElementById('myCanvas').getContext('2d');-->
+<!--            let radius = Math.floor(Math.random() * 80);-->
+<!--            let color = getRandomColor();-->
+<!--            let x = Math.random() * window.innerWidth;-->
+<!--            let y = Math.random() * window.innerHeight;-->
+<!--            let circle = new Circle(x, y, radius);-->
+<!--            ctx.beginPath();-->
+<!--            ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);-->
+<!--            ctx.fillStyle = color;-->
+<!--            ctx.fill();-->
+<!--        }-->
+<!--        function createMultipleCircle() {-->
+<!--            for (let i = 0; i < 30; i++) {-->
+<!--                createCircle();-->
+<!--            }-->
+<!--        }-->
+<!--        createMultipleCircle();-->
+<!--    </script>-->
 </body>
 </html>
